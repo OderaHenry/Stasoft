@@ -1,0 +1,416 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+.nav {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    list-style: none;
+    padding: 0;
+    color:darkslateblue;
+
+
+}
+
+.bar {
+    font-size: larger;
+    border-bottom: 0;
+    display: flex;
+}
+
+.home {
+    justify-content: center;
+    position: relative;
+    left: 30px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    margin: bottom 30px;
+    list-style-type: none;
+}
+
+.home:hover {
+    background-color: skyblue;
+    transition: ease-in-out 0.1s;
+    border-radius: 50px;
+    text-align: center;
+    width: 90px;
+    height: 50px;
+    padding-top: 20px;
+    cursor: grab;
+}
+
+.bgimgf{
+position: relative;
+left: 2px;
+background-image: none;
+
+}
+.ab {
+    justify-content: center;
+    position: relative;
+    left: 70px;
+    padding-bottom: -5px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.ab:hover {
+    background-color: skyblue;
+    transition: ease-in-out 0.1s;
+    border-radius: 50px;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    padding-top: 20px;
+    cursor: grab;
+}
+
+.prd {
+    justify-content: center;
+    position: relative;
+    left: 120px;
+    padding-bottom: -5px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.prd:hover {
+    background-color: skyblue;
+    transition: ease-in-out 0.1s;
+    border-radius: 50px;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    padding-top: 20px;
+    cursor: grab;
+
+}
+
+.lt {
+    justify-content: center;
+    position: relative;
+    left: 160px;
+    padding-bottom: -5px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.lt:hover {
+    background-color: skyblue;
+    transition: ease-in-out 0.1s;
+    border-radius: 50px;
+    text-align: center;
+    width: 110px;
+    height: 50px;
+    padding-top: 20px;
+    cursor: grab;
+}
+
+.cmp {
+    justify-content: center;
+    position: relative;
+    left: 150px;
+    padding-bottom: -80px;
+    font-size: 15px;
+    margin-left: 50px;
+    display: flex;
+}
+
+.cmp:hover {
+    background-color: skyblue;
+    transition: ease-in-out 0.1s;
+    border-radius: 50px;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    padding-top: 20px;
+    cursor: grab;
+}
+
+.li{
+    margin-left: 400px;
+    gap: 30px;
+    border-radius: 5px;
+}
+
+.su{
+    margin-left: 400px;
+    gap: 30px;
+    border-radius: 50px;
+}
+
+.cl2{
+    display: flex;
+    margin-top: 40px;
+}
+
+.container {
+    justify-content: center;
+    display: inline;
+    margin: 200px;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    height:40px;
+}
+
+.bgimg {
+    fill-opacity: inherit
+}
+
+
+.cl1img {
+    display: flex;
+}
+
+.cl1 {
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.ic1{
+    height: 400px;
+    width: 400px;
+}
+
+.ic2{
+    height: 400px;
+    width: 400px;
+}
+
+.ic3{
+    height: 400px;
+    width: 400px;
+}
+
+.ic4{
+    height: 400px;
+    width: 400px;
+}
+
+
+.ibtn{
+    margin-top: 30px;
+}
+.btnc1 {
+    border-radius: 50px;
+    background-color: slateblue;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    left: 130px;
+}
+
+.t1 {
+    text-align: center;
+}
+
+.i2 {
+    position: relative;
+    left: 500px;
+    top: -370px;
+    border-radius: 10px 10px 0 0;
+}
+
+.i3 {
+    position: relative;
+    left: 950px;
+    top: -700px;
+    border-radius: 20px 20px 1 0;
+
+}
+
+.cl1img {
+    padding: 30px;
+    margin: -30px;
+    right: 30px;
+}
+
+
+.new {
+    position: relative;
+    top: 350px;
+    right: 300px;
+
+}
+
+.hyg {
+    text-align: center;
+
+}
+
+.hyg:hover {
+    text-align: center;
+    color: rebeccapurple;
+
+}
+
+
+.abtn {
+    align-items: center;
+    margin-left: 600px;
+    margin-top: 40px;
+    height: 50px;
+    border-radius: 40px;
+
+}
+
+.abtn:hover {
+    color: black;
+    background-color: midnightblue;
+}
+
+.abimg {
+    gap: -100px;
+    padding: 50px;
+    margin: 30px;
+
+}
+
+.abc {
+    display: flex;
+    padding: 30px;
+    margin-left: 60px;
+    gap: 40px;
+}
+
+.abc1 {
+    border-radius: 40px 10px;
+}
+
+.abc2 {
+    border-radius: 40px 10px;
+}
+
+.abc3 {
+    border-radius: 40px 10px;
+
+}
+
+.btna {
+    margin-left: 150px;
+    margin-top: 30px;
+    border-radius: 80px;
+}
+
+.btna:hover {
+    color: aqua;
+    background-color:darkslateblue;
+    border-radius: 100px;
+    width: 100px;
+    height: 40px;
+}
+
+.procont {
+    display: flex;
+    width: 600px;
+    height: 600px;
+
+}
+
+.la {
+    color: black;
+    border-radius: 50px;
+    width: 200px;
+}
+
+.la:hover {
+    color: hotpink;
+    
+}
+
+
+.dl:hover {
+    color: hotpink;
+    background-color: aqua;
+}
+
+.adr:hover {
+    color: hotpink;
+}
+
+.ap:hover {
+    color: hotpink;
+}
+
+.sf:hover {
+    color: hotpink;
+
+}
+
+.cab:hover {
+    color: hotpink;
+
+}
+
+.lfp:hover {
+    color: hotpink;
+}
+
+.srr:hover {
+    color: hotpink;
+
+}
+
+.ssb:hover {
+    color: hotpink;
+
+}
+
+.cwl:hover {
+    color: hotpink;
+
+}
+
+.svr:hover {
+    color: hotpink;
+
+}
+
+.lfs {
+    width: 200px;
+    height: 200px;
+    
+}
+
+.lfs:hover {
+    /* transition: ease-in-out 0.1;
+    height: 250px;
+    width: 250px;
+    background-color:darkslateblue; */
+}
+
+.lfr {
+    width: 200px;
+    height: 200px;
+}
+
+.lfr:hover {
+    transition: ease-in-out 0.1;
+    height: 250px;
+    width: 250px;
+    background-color: aqua;
+}
+
+.pss {
+    width: 200px;
+    height: 200px;
+}
+
+.pss:hover {
+    transition: ease-in-out 0.1;
+    height: 250px;
+    width: 250px;
+    background-color: aqua;
+}
